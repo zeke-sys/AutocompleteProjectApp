@@ -26,7 +26,7 @@ To compile, build with the following commands:
 ------------------------------
 
 The interactive menu commands will look like the following:
-  Trie Autocomplete (type 'help' for commands)
+  "Trie Autocomplete (type 'help' for commands)
   > help
   Commands:
     add <word> [freq]      - insert a word (freq default 1)
@@ -46,10 +46,11 @@ The interactive menu commands will look like the following:
   [PASS] Predict with missing prefix
   [PASS] Predict with empty prefix includes existing words
   === Tests Complete ===
-  Type 'help' for commands> >
+  Type 'help' for commands> > "
 
 ENJOY!
 
   
+
 
 
