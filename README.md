@@ -22,35 +22,37 @@ The implementation involved the following components:
 To compile, build with the following commands:
   - g++ trieProject.cpp trieMain.cpp trieTest.cpp -o trieProgram
   - ./trieProgram
-  - 
+
 ------------------------------
 
 The interactive menu commands will look like the following:
-  "Trie Autocomplete (type 'help' for commands)
-  > help
-  Commands:
-    add <word> [freq]      - insert a word (freq default 1)
-    predict <prefix> [n]   - show top n predictions (default 10)
-    search <word>          - check if exact word exists
-    load <filename>        - load words from file (word [freq] per line)
-    test                   - run built-in unit tests
-    exit                   - quit
-    help                   - this message
-  > > test
-  === Running Trie Unit Tests ===
-  [PASS] Contains apple
-  [PASS] Contains app
-  [PASS] Contains application
-  [PASS] Missing word
-  [PASS] Frequency accumulation
-  [PASS] Predict with missing prefix
-  [PASS] Predict with empty prefix includes existing words
-  === Tests Complete ===
-  Type 'help' for commands> > "
+  - Trie Autocomplete (type 'help' for commands)
+  - help
+  - Commands:
+      - add <word> [freq]      - insert a word (freq default 1)
+      - predict <prefix> [n]   - show top n predictions (default 10)
+      - search <word>          - check if exact word exists
+      - load <filename>        - load words from file (word [freq] per line)
+      - test                   - run built-in unit tests
+      - exit                   - quit
+      - help                   - this message
+   - test
+   - === Running Trie Unit Tests ===
+       - [PASS] Contains apple
+       - [PASS] Contains app
+       - [PASS] Contains application
+       - [PASS] Missing word
+       - [PASS] Frequency accumulation
+       - [PASS] Predict with missing prefix
+       - [PASS] Predict with empty prefix includes existing words
+   - === Tests Complete ===
+     
+   - Type 'help' for commands> > 
 
 ENJOY!
 
   
+
 
 
 
